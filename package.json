@@ -1,0 +1,23 @@
+{
+  "name": "short-dom",
+  "version": "1.0.0",
+  "description": "A small library to shorten a lot of common dom interactions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha-phantomjs specs/testRunner.html"
+  },
+  "keywords": [
+    "dom",
+    "utils",
+    "short",
+    "easy",
+    "small"
+  ],
+  "author": "Scott Riley",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "webpack": "^1.12.14"
+  }
+}

@@ -1,0 +1,1 @@
+window.qs = require('./query_selector.js');
