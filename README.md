@@ -8,7 +8,3 @@ Set of shortened functions and utilities to allow much less code writing when in
 * document.getElementById
 * document.getElementsByClassName
 * document.getElementsByTag
-
-# Testing Requirements
-
-You will likely need to run `npm i -g phantomjs mocha-phantomjs` to be able to run `npm test`
