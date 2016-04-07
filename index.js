@@ -45,6 +45,10 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	window.qs = __webpack_require__(1);
+	window.qsa = __webpack_require__(2);
+	window.gid = __webpack_require__(3);
+	window.gclass = __webpack_require__(4);
+	window.gtag = __webpack_require__(5);
 
 /***/ },
 /* 1 */
@@ -52,6 +56,38 @@
 
 	module.exports = function (selector) {
 	  return document.querySelector(selector);
+	}
+
+/***/ },
+/* 2 */
+/***/ function(module, exports) {
+
+	module.exports = function (selector) {
+	  return document.querySelectorAll(selector);
+	}
+
+/***/ },
+/* 3 */
+/***/ function(module, exports) {
+
+	module.exports = function (selector) {
+	  return document.getElementById(selector);
+	}
+
+/***/ },
+/* 4 */
+/***/ function(module, exports) {
+
+	module.exports = function (selector) {
+	  return document.getElementsByClassName(selector);
+	}
+
+/***/ },
+/* 5 */
+/***/ function(module, exports) {
+
+	module.exports = function (selector) {
+	  return document.getElementsByTagName(selector);
 	}
 
 /***/ }
