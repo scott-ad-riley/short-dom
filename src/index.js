@@ -11,6 +11,7 @@ module.exports = function () {
   window.gid = gid;
   window.gclass = gclass;
   window.gtag = gtag;
+  window.ce = ce;
 }
 
 module.exports.qs = qs;
@@ -18,3 +19,4 @@ module.exports.qsa = qsa;
 module.exports.gid = gid;
 module.exports.gclass = gclass;
 module.exports.gtag = gtag;
+module.exports.ce = ce;

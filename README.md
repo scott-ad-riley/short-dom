@@ -25,3 +25,4 @@ window.onload = function () {
 |document.getElementById()|gid()|
 |document.getElementsByClassName()|gclass()|
 |document.getElementByTagName()|gtag()|
+|document.createElement()|ce()|
