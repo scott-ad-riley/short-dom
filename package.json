@@ -1,6 +1,6 @@
 {
   "name": "short-dom",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A small library to shorten a lot of common dom interactions",
   "main": "index.js",
   "scripts": {
