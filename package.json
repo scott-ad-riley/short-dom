@@ -14,10 +14,5 @@
     "small"
   ],
   "author": "Scott Riley",
-  "license": "ISC",
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.4.5",
-    "webpack": "^1.12.14"
-  }
+  "license": "ISC"
 }
