@@ -3,6 +3,7 @@ var qsa = require('./query_selector_all.js');
 var gid = require('./get_element_by_id.js');
 var gclass = require('./get_elements_by_class_name.js');
 var gtag = require('./get_elements_by_tag_name.js');
+var ce = require('./create_element.js');
 
 module.exports = function () {
   window.qs = qs;
