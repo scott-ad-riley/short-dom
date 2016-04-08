@@ -44,11 +44,24 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	window.qs = __webpack_require__(1);
-	window.qsa = __webpack_require__(2);
-	window.gid = __webpack_require__(3);
-	window.gclass = __webpack_require__(4);
-	window.gtag = __webpack_require__(5);
+	var qs = __webpack_require__(1);
+	var qsa = __webpack_require__(2);
+	var gid = __webpack_require__(3);
+	var gclass = __webpack_require__(4);
+	var gtag = __webpack_require__(5);
+	module.exports = function () {
+	  window.qs = qs;
+	  window.qsa = qsa;
+	  window.gid = gid;
+	  window.gclass = gclass;
+	  window.gtag = gtag;
+	}
+	
+	module.exports.qs = qs;
+	module.exports.qsa = qsa;
+	module.exports.gid = gid;
+	module.exports.gclass = gclass;
+	module.exports.gtag = gtag;
 
 /***/ },
 /* 1 */
