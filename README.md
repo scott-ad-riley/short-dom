@@ -12,7 +12,7 @@ window.onload = function () {
 
 Or invoking the return from your require will just put all the functions in the window/global scope
 ```javascript
-var shortDom = require('short-dom')();
+require('short-dom')();
 window.onload = function () {
   qs('#my-div-id');
 }
